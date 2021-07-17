@@ -9,7 +9,7 @@ import java.io.IOException;
 import static io.restassured.RestAssured.given;
 
 //В этом классе реализован пример отправки запроса GET без использования спецификации запроса new RequestSpecBuilder(),
-//то есть все необходимые параметры переданы одинм методом
+//то есть все необходимые параметры переданы одним методом
 public class ApiTestWithoutPrepare {
     @Test
     public void testGet() throws IOException {
